@@ -4,7 +4,7 @@ Welcome to the **CommitKings** organization, the architects behind **FlowPilot**
 
 ##  The FlowPilot Project
 
-**FlowPilot** is designed to solve the complexity of modern financial operations. Traditional fintech integrations are often manual, siloed, and error-prone. FlowPilot provides a **Multi-Agentic AI Orchestration Layer** that automates everything from payment planning and risk assessment to reconciliation and auditing, all through natural language and intelligent decision-making.
+**FlowPilot** is a web-based multi-agent fintech execution system for SMEs. It uses Interswitch's Quickteller Transfer Service APIs to verify recipient accounts, execute approved disbursements, and track settlement status. AI agents score payout risk, coordinate multi-step treasury workflows with strict human approval gates, and produce full audit traces, enabling faster operations, safer payouts, and explainable decision intelligence.
 
 ###  The Repositories
 
@@ -17,7 +17,7 @@ Welcome to the **CommitKings** organization, the architects behind **FlowPilot**
 ---
 
 ##  Problem Statement
-Financial institutions and fintech companies struggle with **fragmented workflows**. Executing a simple business objective (e.g., "Pay all vendors while checking for duplicate invoices and assessing risk") currently requires multiple manual steps across various platforms. This leads to:
+FlowPilot exists because running payouts as an SME is still painful: you juggle spreadsheets, bank portals, and ad hoc checks, with little structure for who gets paid, whether amounts look right, whether accounts are real, or who approved what. That gap is risky for fraud, errors, and compliance, especially when you scale beyond a handful of transfers. This leads to:
 - **Execution Latency**: Manual processes slow down time-to-value.
 - **Accuracy Risks**: Human errors in reconciliation and risk scoring cause financial loss.
 - **Vendor Lock-in**: Hardcoded integrations make it difficult to pivot between providers.
